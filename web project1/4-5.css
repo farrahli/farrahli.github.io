@@ -1,0 +1,26 @@
+.head {
+	margin: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.h1 {
+	height: 50%;
+	font-family: sans-serif;
+	letter-spacing: 30px;
+	}
+.h2 {
+	height: 50%;
+	font-family: sans-serif;
+	letter-spacing: 20px;
+}
+.h3 {
+	height: 50%;
+	font-family: sans-serif;
+	line-height: 40px;
+}
+.h4{
+	font-family: sans-serif;
+	line-height: 40px;
+}

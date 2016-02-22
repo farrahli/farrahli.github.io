@@ -1,0 +1,24 @@
+.head {
+	margin: auto;
+	padding-bottom: 200px;
+	float: right;
+	text-transform: uppercase;
+}
+.h1 {
+	float: right;
+	height: 50%;
+	line-height: 10px;
+	}
+.h2 {
+	height: 50%;
+	letter-spacing: 1px;
+}
+.h3 {
+	height: 50%;
+	float: right;
+	line-height: 10px;
+}
+.h4{
+	letter-spacing: 1px;
+}
+	

@@ -1,0 +1,27 @@
+.head {
+	font-style: italic;
+	font-size: 30px;
+	}
+.h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height: 20px;
+	letter-spacing: 3px;	
+	padding-top: 40px;
+}
+.h2 {
+	padding-left: 140px;
+	letter-spacing: 3px;
+}
+.h3 {
+	padding-left:240px;
+	letter-spacing: 3px;	
+	
+}
+.h4 {
+	padding-left: 340px;
+	letter-spacing: 3px;	
+}
+.h5 {
+	padding-left: 440px;
+	letter-spacing: 3px;	
+}

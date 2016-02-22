@@ -1,0 +1,28 @@
+.head {
+	display:inline-block
+	padding-bottom:200px;
+	position:inherit;
+}
+
+li{
+	display:none;
+}
+
+.h1 {
+	height:50%;
+	top:30px;
+	left:30px;
+	
+}
+.h2 {
+	height:50%;
+	float:right
+}
+.h3 {
+	padding-right:50px;
+	height:50%;
+	float:right;
+}
+h4{
+	padding-top:300px;
+}

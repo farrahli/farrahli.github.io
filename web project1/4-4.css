@@ -1,0 +1,35 @@
+.head {
+	display:inline-block
+	padding-bottom:200px;
+	position: inherit;
+	text-align: right;
+	font-weight: 400;
+	font-style: oblique;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+
+li{
+	display:none;
+}
+
+.h1 {
+	height: 50%;
+	top: 30px;
+	left: 30px;
+	text-transform: uppercase;	
+}
+.h2 {
+	height: 50%;
+	float: right;
+	letter-spacing: 3px;
+}
+.h3 {
+	padding-right: 50px;
+	height: 50%;
+	float: right;
+	letter-spacing: 3px;
+}
+h4{
+	padding-top:300px;
+}
