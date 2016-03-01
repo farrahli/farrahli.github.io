@@ -1,35 +1,52 @@
+*{
+	background: black;
+	color: white;
+	}
 .head {
 	display:inline-block
 	padding-bottom:200px;
 	position: inherit;
-	text-align: right;
+	text-align: center;
 	font-weight: 400;
 	font-style: oblique;
 	line-height: 20px;
 	text-transform: capitalize;
+	color: #D4A190;
+	background: black;
 }
 
 li{
 	display:none;
+	color:white;
 }
 
 .h1 {
 	height: 50%;
 	top: 30px;
 	left: 30px;
-	text-transform: uppercase;	
-}
+	text-transform: uppercase;
+	line-height: 30px;
+	color: white;
+	float: none;
+	width: 50%;
+	position: relative;
+	}
 .h2 {
-	height: 50%;
-	float: right;
+	float: none;
 	letter-spacing: 3px;
+	line-height: 30px;
+	color: white;
+	text-align: center;
 }
 .h3 {
 	padding-right: 50px;
 	height: 50%;
-	float: right;
+	float: left;
 	letter-spacing: 3px;
+	color: white;
+	width: 50%;
 }
 h4{
 	padding-top:300px;
+	color:white;
 }
