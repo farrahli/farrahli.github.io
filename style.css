@@ -4,13 +4,11 @@ ul{
 	font-size: 20px;
 	color: white;
 	text-align: center;
-	padding-bottom: 20px;
+	
 	font-family: Helvetica;
 }
 h1{
 
-
-	color: white;
 
 	font-size: 36px;
 	text-align: center;
@@ -26,7 +24,7 @@ a:link{
 
 body{
 	font-family: Helvetica;
-       text-align: center;
+text-align: center;
 	color: white;
 	font-weight: bold;
   background: url('./BS0018.JPG');
@@ -36,7 +34,7 @@ body{
 
 .a li{
 	float:left;
-	width:300px;
+	width:32%;
 	border-style: solid;
 	border-width: 2px;
 
