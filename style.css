@@ -9,10 +9,9 @@ ul{
 }
 h1{
 
-	text-align: left;
+
 	color: white;
-	position: fixed;
-	left:780px;
+
 	font-size: 36px;
 	text-align: center;
 }
@@ -27,9 +26,7 @@ a:link{
 
 body{
 	font-family: Helvetica;
-	position: relative;
-	top:300px;
-	left:480px;
+       text-align: center;
 	color: white;
 	font-weight: bold;
   background: url('./BS0018.JPG');
