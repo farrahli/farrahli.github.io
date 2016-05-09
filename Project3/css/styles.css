@@ -22,7 +22,7 @@ html {
         position: fixed;
         left: 8em;
         top: 7.7em;
-        　　　　width: 160%;
+        width: 160%;
         font-size: 90%;
         letter-spacing: 1.9px;
     }
@@ -87,10 +87,14 @@ html {
         left: 155px;
         margin-bottom: 0;
     }
+    footer {
+    font-size: 90%;
+    max-width: 980px;
+    margin: 450px auto 20px;
+}
 
     footer h3 {
-        position: relative;
-        left: -350px;
+text-align: center;
     }
 
     footer nav {
@@ -178,10 +182,14 @@ html {
     }
 
     footer {
-        text-align: center;
-    }
+    font-size: 90%;
+    max-width: 980px;
+    margin: 150px auto 20px;
+    text-align: center
+}
 
     footer h3 {
+        text-align: center;
         position: relative;
         left: auto;
     }
@@ -291,11 +299,7 @@ ul.thumbnails li.thumb a:hover img{
   -webkit-filter:blur(1px);
 }*/
 /* Footer */
-footer {
-    font-size: 90%;
-    max-width: 980px;
-    margin: 450px auto 20px;
-}
+
 
 .biaoti {
     position: relative;
