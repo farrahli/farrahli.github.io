@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+
+<html>
+   <head>
+        <title>Farrah Design</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
+            <meta name="designer" content="imgix">
+
+    </head>
+    <body>
+        <header>
+
+        <a href="index.html">
+        <img class="iconn" src="./logo.png" /></a>
+        <h1></h1><br /></a>
+        <h4>FARRAH LI</h4>
+        <nav>
+            <ul class=subtit>
+                <li><a href="index.html" class=s1>ALL WORK</a></li>
+                <li><a href="workprint.html" class=s2>&rarr;Print</a></li>
+                <li><a href="workdigital.html" class=s2>&rarr;Digital</a></li>
+                <li><a href="workphoto.html" class=s2>&rarr;Handicraft</a></li>
+
+                <li><a href="info.html" class=s1>ABOUT</a></li>
+                <li><a href="index.html" class=s1>BLOG</a></li>
+                <li><a href="mailto:farrahliotis@gmail.com" class=s1>CONTACT</a></li>
+            </ul>
+        </nav>
+     </header>
+            <div class="bordesf">
+            </div>
+     <div class="container">
+          <div class="bordes">
+            </div>
+<div class="content">
+        <div class="protitle">
+              <h2>DanCing Yun / 丹青 韵</h2>
+         <p class="medium">
+           Product Design | 05.2014
+         </p>
+        </div>
+
+
+         <a  ><img class="pic" width="1200px" src="./project/01/00.jpg" /></a>
+         <a  ><img class="pic" width="1200" src="./project/01/01.jpg" /></a>
+         <a  ><img class="pic" width="1200" src="./project/01/02.jpg" /></a>
+
+         <a  ><img class="pic" width="960" src="./project/01/03.jpg" /></a>
+         <a  ><img class="pic" width="960" src="./project/01/04.jpg" /></a>
+         <a  ><img class="pic" width="960" src="./project/01/05.jpg" /></a>
+<!--data-imagelightbox="b"*/-->
+         <div class="descrip">
+              DanCing is the name of a color in Chinese painting and a kind of glazing color in the ceramics. So I use this as my product's name to represent the combine of ceramic and hinese painting. At same time, I use cloth and wood as the material to make the background and shelves showing Chinese style. In this design, all items were made by myself including wood holder, porcelain and painting.
+         </div>
+         <!--<div class="descrip2">
+              我的没有事这样的拉我对面那食物 刚几点上课去呢么你拉开到女方母亲那里看到女满科技去年是麻烦你懒得接发理念去请教你疯了你就拿 卡青年技能泛滥的理解你等我妈妈都看过那看见健康的加强科技的控股及的肯定舒服就去开房
+         </div>-->
+
+     </div>
+     <div class = switchlist>
+      <li class="sthumb1">
+                
+                    <a href="project02.html">
+                        <img src=".\02.jpg" >
+                    </a>
+                    <p span style="float:left" class="title">Poke Poke APP</p>
+                    <p span style="float:left" class="caption">&nbsp;&nbsp;—&nbsp; UX Design, Interface</p>
+
+
+                </li>
+       <li class="sthumb2">
+                    <a href="project03.html">
+                        <img src=".\03.jpg" >
+                    </a>
+                    <p span style="float:left" class="title">Post-it Map</p>
+                    <p span style="float:left" class="caption">&nbsp;&nbsp;—&nbsp; Poster Design</p>
+      </li>
+      <li class="sthumb1">
+                    <a href="project04.html">
+                        <img src=".\04.jpg" >
+                    </a>
+                    <p span style="float:left" class="title">Love Letter </p>
+                    <p span style="float:left" class="caption">&nbsp;&nbsp;—&nbsp; Book Cover Design</p>
+      </li>
+       <li class="sthumb2">
+                    <a href="project1.html">
+                        <img src=".\1.JPG" >
+                    </a>
+                    <p span style="float:left" class="title">Visual Essay</p>
+                    <p span style="float:left" class="caption">&nbsp;&nbsp;—&nbsp; Book Design, Binding, Typography</p>
+      </li>
+
+
+
+     </div>
+     </div>
+        <footer>
+                    <p  ><h3></h3></p>
+
+            
+        </footer>
+   </body>
+
+<script src="./jquery.js"></script>
+<script src="imagelightbox.min.js"></script>
+<script>
+
+  $( function()
+  {
+      // ACTIVITY INDICATOR
+
+    var activityIndicatorOn = function()
+      {
+        $( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
+      },
+      activityIndicatorOff = function()
+      {
+        $( '#imagelightbox-loading' ).remove();
+      },
+
+
+      // OVERLAY
+
+      overlayOn = function()
+      {
+        $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
+      },
+      overlayOff = function()
+      {
+        $( '#imagelightbox-overlay' ).remove();
+      },
+
+
+      // CLOSE BUTTON
+
+      closeButtonOn = function( instance )
+      {
+        $( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
+      },
+      closeButtonOff = function()
+      {
+        $( '#imagelightbox-close' ).remove();
+      },
+
+
+      // CAPTION
+
+      captionOn = function()
+      {
+        var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
+        if( description.length > 0 )
+          $( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
+      },
+      captionOff = function()
+      {
+        $( '#imagelightbox-caption' ).remove();
+      },
+
+
+      // NAVIGATION
+
+      navigationOn = function( instance, selector )
+      {
+        var images = $( selector );
+        if( images.length )
+        {
+          var nav = $( '<div id="imagelightbox-nav"></div>' );
+          for( var i = 0; i < images.length; i++ )
+            nav.append( '<button type="button"></button>' );
+
+          nav.appendTo( 'body' );
+          nav.on( 'click touchend', function(){ return false; });
+
+          var navItems = nav.find( 'button' );
+          navItems.on( 'click touchend', function()
+          {
+            var $this = $( this );
+            if( images.eq( $this.index() ).attr( 'href' ) != $( '#imagelightbox' ).attr( 'src' ) )
+              instance.switchImageLightbox( $this.index() );
+
+            navItems.removeClass( 'active' );
+            navItems.eq( $this.index() ).addClass( 'active' );
+
+            return false;
+          })
+          .on( 'touchend', function(){ return false; });
+        }
+      },
+      navigationUpdate = function( selector )
+      {
+        var items = $( '#imagelightbox-nav button' );
+        items.removeClass( 'active' );
+        items.eq( $( selector ).filter( '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
+      },
+      navigationOff = function()
+      {
+        $( '#imagelightbox-nav' ).remove();
+      },
+
+
+      // ARROWS
+
+      arrowsOn = function( instance, selector )
+      {
+        var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
+
+        $arrows.appendTo( 'body' );
+
+        $arrows.on( 'click touchend', function( e )
+        {
+          e.preventDefault();
+
+          var $this = $( this ),
+            $target = $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
+            index = $target.index( selector );
+
+          if( $this.hasClass( 'imagelightbox-arrow-left' ) )
+          {
+            index = index - 1;
+            if( !$( selector ).eq( index ).length )
+              index = $( selector ).length;
+          }
+          else
+          {
+            index = index + 1;
+            if( !$( selector ).eq( index ).length )
+              index = 0;
+          }
+
+          instance.switchImageLightbox( index );
+          return false;
+        });
+      },
+      arrowsOff = function()
+      {
+        $( '.imagelightbox-arrow' ).remove();
+      };
+
+
+    //  WITH ACTIVITY INDICATION
+
+    $( 'a[data-imagelightbox="a"]' ).imageLightbox(
+    {
+      onLoadStart:  function() { activityIndicatorOn(); },
+      onLoadEnd:    function() { activityIndicatorOff(); },
+      onEnd:      function() { activityIndicatorOff(); }
+    });
+
+
+    //  WITH OVERLAY & ACTIVITY INDICATION
+
+    $( 'a[data-imagelightbox="b"]' ).imageLightbox(
+    {
+      onStart:   function() { overlayOn(); },
+      onEnd:     function() { overlayOff(); activityIndicatorOff(); },
+      onLoadStart: function() { activityIndicatorOn(); },
+      onLoadEnd:   function() { activityIndicatorOff(); }
+    });
+
+
+    //  WITH "CLOSE" BUTTON & ACTIVITY INDICATION
+
+    var instanceC = $( 'a[data-imagelightbox="c"]' ).imageLightbox(
+    {
+      quitOnDocClick: false,
+      onStart:    function() { closeButtonOn( instanceC ); },
+      onEnd:      function() { closeButtonOff(); activityIndicatorOff(); },
+      onLoadStart:  function() { activityIndicatorOn(); },
+      onLoadEnd:    function() { activityIndicatorOff(); }
+    });
+
+
+    //  WITH CAPTION & ACTIVITY INDICATION
+
+    $( 'a[data-imagelightbox="d"]' ).imageLightbox(
+    {
+      onLoadStart: function() { captionOff(); activityIndicatorOn(); },
+      onLoadEnd:   function() { captionOn(); activityIndicatorOff(); },
+      onEnd:     function() { captionOff(); activityIndicatorOff(); }
+    });
+
+
+    //  WITH ARROWS & ACTIVITY INDICATION
+
+    var selectorG = 'a[data-imagelightbox="g"]';
+    var instanceG = $( selectorG ).imageLightbox(
+    {
+      onStart:    function(){ arrowsOn( instanceG, selectorG ); },
+      onEnd:      function(){ arrowsOff(); activityIndicatorOff(); },
+      onLoadStart:  function(){ activityIndicatorOn(); },
+      onLoadEnd:    function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
+    });
+
+
+    //  WITH NAVIGATION & ACTIVITY INDICATION
+
+    var selectorE = 'a[data-imagelightbox="e"]';
+    var instanceE = $( selectorE ).imageLightbox(
+    {
+      onStart:   function() { navigationOn( instanceE, selectorE ); },
+      onEnd:     function() { navigationOff(); activityIndicatorOff(); },
+      onLoadStart: function() { activityIndicatorOn(); },
+      onLoadEnd:   function() { navigationUpdate( selectorE ); activityIndicatorOff(); }
+    });
+
+
+    //  ALL COMBINED
+
+    var selectorF = 'a[data-imagelightbox="f"]';
+    var instanceF = $( selectorF ).imageLightbox(
+    {
+      onStart:    function() { overlayOn(); closeButtonOn( instanceF ); arrowsOn( instanceF, selectorF ); },
+      onEnd:      function() { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
+      onLoadStart:  function() { captionOff(); activityIndicatorOn(); },
+      onLoadEnd:    function() { captionOn(); activityIndicatorOff(); $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
+    });
+
+  });
+
+</script>
+</html>
